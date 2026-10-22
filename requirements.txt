@@ -1,0 +1,4 @@
+# PaidCheck runtime dependencies.
+# Everything else (web UI, claims store, tests) uses the Python standard
+# library on purpose, so judges can run the demo with minimal setup.
+requests>=2.31
